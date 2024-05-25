@@ -23,15 +23,15 @@ with col1:
 similarity = pickle.load(open('similarity.pkl','rb'))
 
 def fetch_poster(movie_id):
-    response = requests.get("https://api.themoviedb.org/3/movie/{}?api_key=ec2bac11f1fbc157f3df0aedb6445b66&language=en-US".format(movie_id))
+    response = requests.get("https://api.themoviedb.org/{}?api_key=ec2bac11f1fbc157f3df0aedb6445b66&language=en-US".format(movie_id))
     data = response.json()
     print(data)
-    return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
+    return "https://image.tmdb.org/p/w500/" + data['poster_path']
 
 
 import streamlit.components.v1 as components
 def recommend(movie):
-    movie_index = movies[movies['title'] == movie].index[0]
+    movie_index = movies[movies['title'] == id[0]
     distances = similarity[movie_index]
     movies_list = sorted(list(enumerate(distances)),reverse = True, key=lambda x : x[1])[1:6]
 
