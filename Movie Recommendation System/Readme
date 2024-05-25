@@ -21,14 +21,8 @@ A function is implemented to fetch movie posters using The Movie Database (TMDb)
 Displaying Recommended Movies:
 Upon user request, the recommendation function is triggered, and the recommended movie titles along with their posters are displayed in the Streamlit application.
 
-GitHub Workflow:
-The project is initialized as a Git repository, and all project files are added. Changes are committed and pushed to a remote repository on GitHub, ensuring version control and collaboration.
-
 Conclusion:
 The movie recommendation system is successfully implemented and deployed on Streamlit, providing users with personalized movie suggestions based on their preferences.
-
-References:
-Include any references to external libraries, APIs, or resources used in the project for further exploration.
 
 
 
