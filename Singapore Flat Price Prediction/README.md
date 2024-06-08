@@ -1,5 +1,5 @@
 # Singapore Housing Resale Value Estimator
-LinkedIn : https://www.linkedin.com/feed/update/urn:li:activity:7200066091434319872/
+LinkedIn Demo Video: https://www.linkedin.com/feed/update/urn:li:activity:7200066091434319872/
 ![Screenshot (321)](https://github.com/Lavan1999/Project-10_SingaporeResaleFlatPrediction/assets/152668558/5dc06a98-2249-4cf2-a26d-4efea0f0ddb4)
 
 This project aims to predict the resale value of HDB flats in Singapore using various input features such as town, block, flat type, flat model, storey range, street name, floor area, and more. The prediction model is built using regression techniques and is deployed as a web application using Streamlit.
