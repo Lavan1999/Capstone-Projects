@@ -1,6 +1,6 @@
 # Store Sales Forecasting Model
 
-LinkedIN Video Link:https://www.linkedin.com/feed/update/urn:li:activity:7199431422363770882/
+LinkedIN Demo Video Link:https://www.linkedin.com/feed/update/urn:li:activity:7199431422363770882/
 ![Screenshot (322)](https://github.com/Lavan1999/Project-9_SalesForecast/assets/152668558/61056a29-99ba-4ed0-bd73-d3d280a41ddb)
 
 ## What I Have Done in This Project
