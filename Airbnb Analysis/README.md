@@ -1,38 +1,34 @@
-# BizCard: Extracting Business Card Data with OCR
-**linkedIn Video post: https://www.linkedin.com/feed/update/urn:li:activity:7185692821406810112/**
-# Overview
-BizCard is a Python-based project aimed at extracting information from business cards using Optical Character Recognition (OCR) technology. The extracted data is then organized and stored in a PostgreSQL database, allowing users to manage and retrieve information from various business cards.
+# Project: Airbnb Analysis
+LinkedIn Project Demo: https://www.linkedin.com/in/lavanya-s-1a3377284/recent-activity/all/
+My project is a data analysis and visualization tool for Airbnb data stored in a MongoDB database. The project is implemented using Python with the help of libraries such as Pandas, Plotly, Streamlit, and others. It provides an interactive web application where users can explore and analyze Airbnb data. Here's a brief explanation of the project:
 
-# Technologies Used
-- Python: Programming language used for development.
-- EasyOCR: Python library for performing OCR on images.
-- Streamlit: Open-source app framework used for building web interfaces.
-- SQLAlchemy: Python SQL toolkit and Object-Relational Mapper for interacting with databases.
-- PostgreSQL: Relational database management system used for storing extracted data.
-- Pandas: Python library for data manipulation and analysis.
-
-# Workflow
-- Home Page: Users can navigate through different sections of the application from the home page, including uploading business cards, modifying details, and viewing extracted data.
-
-- Upload and Extract: Users upload images of business cards through the web interface. The EasyOCR library is then utilized to extract text from the uploaded images. Extracted information includes the cardholder's name, company name, designation, contact details, and address.
-
-- Display Extracted Data: The extracted data is displayed on the web interface, allowing users to review and verify the information. Users can make any necessary modifications or corrections to the extracted details.
-
-- Database Integration: Extracted data is stored in a PostgreSQL database using SQLAlchemy. Each entry in the database corresponds to a business card, with fields such as name, company name, designation, contact information, and address.
-
-- Modify and Delete Data: Users have the option to modify or delete entries in the database. They can select specific entries to edit or remove, providing flexibility in managing stored information.
-
-# Usage
-- Clone the repository to your local machine.
-- Install the required dependencies using pip install -r requirements.txt.
-- Run the Streamlit web app using streamlit run app.py.
-- Navigate through the different sections of the application to upload business cards, view extracted data, and manage database entries.
-- Future Enhancements
-- Implement authentication and user accounts for secure access to the application.
-- Enhance OCR accuracy and robustness for improved extraction of text from business card images.
-- Add support for additional languages and localization options.
-- Integrate with external APIs for additional functionality, such as geocoding addresses or retrieving company information.
-
-![biz2](https://github.com/Lavan1999/Project-3__BizCardDataExtracting/assets/152668558/2165e7d5-3128-45c3-afe4-f8c1253968cc)
-
-![biz1](https://github.com/Lavan1999/Project-3__BizCardDataExtracting/assets/152668558/3d665add-1736-4db1-b38a-bfcedcb39f46)
+## Data Source:
+- The project uses Airbnb data stored in a MongoDB database.
+- The data includes information such as property names, types, prices, room types, number of reviews, review scores, host information, and location details.
+## Data Preparation:
+- Data is fetched from the MongoDB collection and processed into a Pandas DataFrame.
+- The DataFrame undergoes cleaning and formatting, including handling missing values and converting data types.
+## Streamlit Application:
+- The application uses Streamlit to create an interactive web interface for exploring and visualizing the data.
+- Users can navigate through different pages, such as the home page and data visualization page.
+## Data Visualizations:
+- The project provides several visualizations, including bar charts, pie charts, and choropleth maps.
+- Visualizations include top property types by reviews, average prices by property type, and top properties with the highest review scores for cleanliness.
+- Users can filter data based on criteria such as country, price range, number of beds, bedrooms, and cancellation policy.
+## Bar Charts:
+Purpose: Bar charts are useful for comparing the frequency or value of different categories. In the context of Airbnb analysis, you might use bar charts to compare the number of reviews or average price for different property types.
+- Use Case: Visualize the top 10 property types in a selected country by number of reviews.
+## Pie Charts:
+Purpose: Pie charts are effective for displaying proportions or percentages of a whole. In Airbnb analysis, you could use pie charts to show the distribution of different property types or review scores for cleanliness.
+- Use Case: Display the top 5 property types with the highest review scores for cleanliness in a selected country.
+## Choropleth Maps:
+Purpose: Choropleth maps allow you to visualize data geographically. In Airbnb analysis, this can be used to represent the average price of listings across different countries or regions.
+- Use Case: Display the average price by country to identify geographic areas with higher or lower prices.
+## User Interaction:
+- Users can interact with the data and visualizations by selecting options from dropdown menus, sliders, and other input elements.
+- These interactions allow users to customize their analysis and focus on specific aspects of the data.
+## Results:
+- The application provides insights into Airbnb listings, such as popular property types, pricing trends, and cleanliness scores.
+- These insights can be valuable for both Airbnb hosts and guests.
+  
+![Dashboard 2](https://github.com/Lavan1999/Project6-Airbnb/assets/152668558/a86e8c00-ddf5-461e-bba3-55cd86467443)
